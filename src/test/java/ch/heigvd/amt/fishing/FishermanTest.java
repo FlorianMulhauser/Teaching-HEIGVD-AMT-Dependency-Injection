@@ -7,6 +7,8 @@ class FishermanTest {
   @org.junit.jupiter.api.Test
   void goGetFish() {
     Fisherman fisherman = new Fisherman();
+    fisherman.equipGear();
+
     Fish fish = fisherman.goGetFish();
     assertNotNull(fish);
   }

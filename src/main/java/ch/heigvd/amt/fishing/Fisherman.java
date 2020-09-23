@@ -22,4 +22,11 @@ public class Fisherman {
     return fish;
   }
 
+  public void equipGear() {
+
+    this.boots = new Boots();
+    this.fishingRod = new FishingRod();
+    this.bait = new Bait();
+    this.boat = new Boat();
+  }
 }
